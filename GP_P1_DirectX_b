@@ -30,7 +30,7 @@ namespace WindowsFormsApp3
         }
         private void LoadTexture()
         {
-            texture = TextureLoader.FromFile(device, "D:\\Umang New\\tp____1\\Gemini_Generated_Image_mbibilmbibilmbib.jpeg", 400, 400, 1, 0, Format.A8B8G8R8, Pool.Managed, Filter.Point, Filter.Point, Color.Transparent.ToArgb());
+            texture = TextureLoader.FromFile(device, "D:\\tp____1\\Gemini_Generated_Image_mbibilmbibilmbib.jpeg", 400, 400, 1, 0, Format.A8B8G8R8, Pool.Managed, Filter.Point, Filter.Point, Color.Transparent.ToArgb());
         }
         private void InitDevice()
         {
